@@ -1,0 +1,99 @@
+
+nav{
+    background-color: antiquewhite;
+}
+
+nav > h2:hover{
+    color: blueviolet;
+    font-style: italic;
+    text-decoration: underline;
+
+}
+
+header{
+    height: 200px;
+    background-color: aquamarine;
+}
+
+header >h1{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+header > h1:active{
+    color: blueviolet;
+}
+
+section{
+    background-color: cadetblue;
+}
+
+section  > h1:nth-child(2){
+    color: white;
+}
+
+section > p:nth-child(6){
+    color: chocolate;
+}
+
+section > ol > li:nth-child(2n){
+    background-color: wheat;
+}
+
+section > ol > li:nth-child(2n+1){
+    background-color:gray;
+}
+
+article > h1 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+article > p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+article > p::first-letter{
+    font-size: 50px;
+}
+
+article > p::first-line{
+    font-style: italic;
+}
+
+article > h1::before{
+    content:"***";
+    color: brown;
+}
+
+article > h1::after{
+    content: " !!";
+    color: blue;
+}
+
+article ::selection{
+    background-color:red;
+    color: white;
+}
+
+article > ol >li::marker{
+    color: chocolate;
+}
+
+article > ol > li:nth-child(2n+1)::marker{
+     color: blue;
+     font-weight: bold;
+}
+
+form > input[type="text"]{
+    background-color: gray;
+}
+
+.container > a[target="_self"]{
+    font-size: 20px;
+    
+}
+
+

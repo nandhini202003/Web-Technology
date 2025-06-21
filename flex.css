@@ -1,0 +1,47 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 500px;
+    width: 900px;
+    border: 3px solid yellow;
+    background-color: yellowgreen;
+    display: flex;
+    /* every element comes in single row ---display:flex  */
+    /* flex-direction: row; 
+    by default it will take row we can also provide the column ,row reverse,column reverse*/
+    /* flex direction is nothing but it is main-access */
+    /* flex-direction: column */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+
+    /* justify-content: center; */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-between; */
+    justify-content: space-around;
+
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    align-items: center;
+
+
+}
+.container > .box{
+    height: 80px;
+    width: 80px;
+    
+    border: 3px solid red;
+}
+
+.outer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+}
